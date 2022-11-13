@@ -1,0 +1,63 @@
+=========Homework 2=========
+T.2.1. Write a function to inter-change two variables. Use parameters as reference and address.
+
+T.2.2. Write and use a function f(float n, bool isRoundedTo100 = false) If isRoundedTo100 = false, the
+function will return the closest integer number to n. If isRoundedTo100 = true, the function returns
+the closest multiple by 100.
+
+T.2.3. Change the function Max, defined at 2.9 Functions overloading, so he can be used with
+parameters of type struct Student. Function should return the Student (returned type: struct
+Student) with maximum grade.
+
+T.2.4. Write a function timeToString(long milisecs)with the parameter of type long, as number of
+miliseconds from 1970-1-1 00:00:00. The function will return the date corresponding to thatlong, in
+yyyy-mm-dd hh:mm:ssformat. Overload function to timeToString(), no parameters. The function
+should return current time, in same format. Use date/time functions from C/C++ libraries to convert
+between long and date in string format. Example timeToString(1631970174315) should return
+”2021-09-18 13:02:54”. Used like timeToString() returns, depending on current time stamp: ”2021-
+09-10 13:10:54”
+
+T.2.5. Write an overloaded function with one parameter and couple of implementations where the
+parameter isint, in one implementation, double in another, a struct and a string. The function
+returns the size of the parameter (sizeof or strlen, depending of parameter type). Declarations will
+be like:
+
+    int f(int x)
+    int f(double x)
+    int f(char *x)
+    
+T.2.7. Define a struct nrComplex, with a and b as real and complex parts (ex x = a+bi). Write a function
+with two implementations, to compute the absolute value of a real and of a complex number. The
+complex number is given as struct complexNumber. Function declaration is double
+module(complexNumber nr) but also as double module(double imaginaryPart, double realPart).
+
+T.2.8. Write a template function to compute maximum from three values of same type (int, float sau
+char*), given as parameters. Is it possible to adapt this function for parameters like struct Student ?
+
+T.2.9. Write a template function that returns the sum of two values of same type, given as parameters.
+The function signature can be T Sum(T a, T b). For what parametertypes the function works
+correctly ?
+
+T.2.10. Investigate a template function to inter-change two values of same type (int, float, double,
+char*), given as parameters. Can a struct Student can be used ?
+
+T.2.11. Read a number, a character and another number. Compute the result of that operation using
+pointers to functions. Use only operators + and -. Ex 5-3=2, operands are 5 and 3, pointer to function
+
+is like substruction(int, int). 
+
+T.2.12. Define 3 struct of type Cat (attributes: name, master, age), Person(attributes: name and age)
+and Car(attributes: producer, licenseNumber, age). All struct have the attribute age. Investigate how
+to declare and implement several template functions with parameters of same type (Cat, Person,
+Car):
+    1. First function returns the variable with minimum age. Investigate the situation when
+      comparing variables of different types. Like comparing a Cat and a Person and return
+      the one with minimum age
+    2. Second function returns true if structures given as parameters have same age,
+      otherwise, false. Investigate the situation when comparing variables of different types.
+      Like, compare two cats to have same age or a cat and a Person for the same age.
+
+T.2.13. Consider a list of struct Person. Sort the list by age, in descending order.
+
+T.2.14. Solve the equation ax+b=0. Design and create a single function returning solution and throwing
+Exceptions.
