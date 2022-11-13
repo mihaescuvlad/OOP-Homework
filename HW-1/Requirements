@@ -1,0 +1,3 @@
+=========Homework 1=========
+T.1.1. Write a function test() in the main program and use it there. Move test() to a library a.h. Use
+test() in main. Use test() from a.h in a second library b.h
