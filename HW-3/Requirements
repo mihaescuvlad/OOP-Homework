@@ -1,0 +1,19 @@
+=========Homework 2=========
+T.3.1. Compute the perimeter and area of a rectangle. Compare the perimeter of the current
+rectangle to the one of a different rectangle. Same for area. Use classes as much as possible.
+
+T.3.2. Create a list/vector of Student (as class). Sort the list/vector based on multiple criteria.
+Display the resulted list. Use classes and lambda as much as possible.
+
+T.3.3. Search a Student in a list/vector of Student. Use classes and lambda as much as possible.
+
+T.3.4. Based on T.3.1, create an array/list/vector of Student. Write a function that returns the
+instance of Student with higher grade. Display the name and grade of that Student. If several
+students in the same situation, all should be displayed.
+
+T.3.5. Create a class ComplexNumber. Use it to compute the sum and product of two complex
+numbers.
+
+T.3.7. Declare a static member variable. Use this member to count how many instances of
+Student are created (exists) up to some moment. Hint: Address the static member in constructor
+and destructor.
