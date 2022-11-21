@@ -34,6 +34,6 @@ double Student::getInstances() const
 
 std::ostream& operator<<(std::ostream& out, const Student& student)
 {
-	out << "MyClass(" << student.getName() << ", " << student.getAge() << ", " << student.getGrade() << ')';
+	out << "Student(" << student.getName() << ", " << student.getAge() << ", " << student.getGrade() << ')';
 	return out;
 }
