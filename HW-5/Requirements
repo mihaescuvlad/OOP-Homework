@@ -1,0 +1,71 @@
+=========Homework 3=========
+T.5.1. Consider the next class definition
+
+class A
+{
+public:
+    int aa;
+protected:
+    int ab;
+private:
+    int ac;
+public:
+	void testA() {
+		// set the attributes in class A
+	}
+};
+
+class B : public / protected / private A
+{
+public:
+	int ba;
+protected:
+	int bb;
+private:
+	int bc;
+public:
+	void testB() {
+		  // set values for the attributes in classes B and A
+    }
+};
+
+class C : public / protected / private B
+{
+public:
+	int ca;
+protected:
+	int cb;
+private:
+	int cc;
+public:
+	void testC() {
+		  // set values for the attributes in classes C, B and A
+    }
+};
+
+Instantiate classes A, B and C, combining the access identifiers (in red). Investigate access to all class
+members, even inherited, from class C to members of C, B, A, from class B to members of class B and A,
+from class A to members of class A. Call testA, testB, testC from corresponding class and check access to
+class members in all possible combinations.
+
+T.5.2. Define constructors for classes Form and Rectangle in Example 5.7, with specific messages in
+console. Call constructor and destructor for Form and Rectangle. Check what is happening and the
+message order. Investigate the order of calling constructor and destructors in a class hierarchy.
+
+T.5.3. Refactor the Example 5.8. Define and implement a method called computeArea(), as member of
+class Form. The method will compute the area of the form. What is the method declaration ? For
+each derived class, override computeArea() and use it.
+
+T.5.4. Define class relations (composition or inheritance), structure with attributes, methods and access
+identifiers (public, private, protected) for and application managing Bus, BusStation, Address,
+Apartment, Driver, Person, Commuter, Student, Mosquito, Engine, Car, Vehicle. Write method to
+answer to some of the questions: 
+  1) start a bus engine 
+  2) how many commuters are in a bus/busstation? 
+  3) what are the buses stopping in some busstation 
+  4) what are the stations a bus will stop in 
+  5) move an apartment from a person to a student 
+  6) add a student to a busStation, bus and car 
+  7) move a mosquito from an apartment to a bus or to a car 
+  8) is a specific mosquito in a specificbus, car or apartment? 
+  9) find a student based on some address and check if he's in a the bus driveby some specific driver
