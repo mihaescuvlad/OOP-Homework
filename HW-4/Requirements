@@ -1,0 +1,23 @@
+=========Homework 4=========
+T.4.1 Define classes Person (attributes name, age) and GroupOfFriends (group name, friends) using
+class composition. Implement methods like create a group, add/remove/update a person to the
+group, display the persons in the group.
+
+T.4.2 Considering classes Student and StudentList, write a method that returns an instance of the
+Student, from StudentList, with maximum grade. In what class shall I to put this method ?
+
+T.4.3 Considering classes Student and StudentList (as vector/list), write a method that returns the
+first Student element, from a StudentList, with grade equal to 5. Manage situation when no such
+elements should be found.
+
+T.4.4 Considering Example 4.7, Example 4.8 and Example 4.9 and the single class responsibility, write a
+constructor for class Car, with declaration Car(int age, Driver driver). Write a method to allow the
+exchange drivers between two cars. After changed, show driver’ names.
+
+T.4.5 Investigate the use of pseudo-constructors with members as pointers
+
+T.4.6 A car is stopped by the Police for routine check. Common documents are required. Based on some
+actions, organize classes and data.
+
+T.4.7 Define class structure with attributes, methods and access identifiers (public, private, protected)
+for and application managing Bus, BusStation, Address, Driver, Commuter, Mosquito, Engine, Car.
