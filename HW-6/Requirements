@@ -1,0 +1,10 @@
+=========Homework 6=========
+T.6.1. Design and implement a class for complex numbers. Overload operators ~ for absolute value
+(module), ^ for power (the recommended value for power is 2. Higher than 2, is optional) and + for
+sum. Use the operators in an example.
+
+T.6.2. Investigate how to implement operation of sum of two complex numbers using operator +. Like
+complexNumber3 = complexNumber1 + complexNumber2
+
+T.6.3. Investigate how to overload operator < to compare two complex numbers (instances of class
+ComplexNumber) by their module.
