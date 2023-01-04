@@ -1,0 +1,19 @@
+=========Homework 7=========
+T.7.1. Design a class structure for two very different vehicles, each one using four wheels. Consider using
+classes like Hummer, Carriage and Wheel (the wheels are specifically design for that vehicle and
+cannot be interchanged). Use one of the above class types and argue your choice. For each of the
+two cars, implement data structure and methods to remove and replace a wheel.
+
+T.7.2. Design a class structure for a Group (class Group) of Student (class Student). Use Student as
+nested class in Group. Implement next operations:
+  1. Add Student to a list (where to put the list ?)
+  2. Display all Group(s) with their Student(s).
+Pay attention to the class structure, attributes and methods.
+
+T.7.3. Design a class structure for a Driver and Car. The relation is 1:1 (one to one), that is the Driver
+drives one Car and each Car has only one driver. Implement operations like:
+  1. Create a data structure to manage multiple Car(s)/Driver(s)
+  2. Add remove elements from the above created data structure
+  3. Show all the elements in the above created data structure and the number
+  4. Investigate and argue how flexible are these data structure
+Use any OOP techniques, class types or none of them but explain your approach.
