@@ -2,7 +2,7 @@
 #include <iostream>
 #include <cmath>
 
-ComplexNumber::ComplexNumber(long double real = 0.0, long double imaginary = 0.0) : m_real{ real }, m_imaginary{ imaginary }
+ComplexNumber::ComplexNumber(long double real, long double imaginary) : m_real{ real }, m_imaginary{ imaginary }
 {
 }
 
