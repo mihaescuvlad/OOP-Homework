@@ -1,0 +1,14 @@
+=========Homework 8=========
+T.8.1. Refactor one of the above examples to compute the minimum module of two complex numbers,
+using a class called ComplexNumber. To compare the two complex numbers, use the module for a
+complex number, as defined in mathematics. The problem is equivalent to return one of two
+complex numbers, closest to plan origin.
+
+T.8.2. Investigate if and how we can compare a complex number and a float number, as module. Values
+should have same type (Tip: Template and overriding operator > or <). (Optional) How we can deal
+with different types ?
+
+T.8.3. Define a class Person and a class Car. Use a template class to compute the average age of two
+distinct lists: a list of Persons and another list of Cars. (Optional) Is it possible to use a list containing
+a random number of Person and Car, like someList.add(Person(1)), someList.add(Person(2)),
+someList.add(Car(12)) ?
