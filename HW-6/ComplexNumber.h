@@ -7,7 +7,7 @@ private:
 	long double m_real;
 	long double m_imaginary;
 public:
-	ComplexNumber(long double real, long double imaginary);
+	ComplexNumber(long double real = 0.0, long double imaginary = 0.0);
 
 	long double getReal() const;
 	long double getImaginary() const;
