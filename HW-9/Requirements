@@ -1,0 +1,32 @@
+=========Homework 9=========
+T.9.1. Refactor Example 9.12 to inject an instance (inject the dependency) of Shape in constructor of
+class Drawing and call drawShape method without parameters.
+
+T.9.2. Refactor Example 9.10 to add names to Car and Rocket instances. When start vehicles, messages
+with vehicle names should be displayed. Example: start red car, start awesome car, start NASA
+rocket
+
+T.9.3. Considering Example 9.12, design an application to compute circle, rectangle and square area
+using virtual and pure virtual methods.
+
+T.9.4. Considering Example 9.12, Example 9.14 and T.9.3, build a vector/list of shapes (Circle, Triangle,
+Squares) and compute the sum of their areas. Design a class structure. How this can be solved
+without OOP or using only classes and/or inheritance ? (optional) Compare this with same problem
+with ShapeWrapper on Lab 8, Templates.
+
+T.9.5. Considering Example 9.14, add a class Dog extending the class Animal and restart the chase, by
+adding Dog(s) to the animalsChasingList !
+
+T.9.6. Investigate how to design and use a class used to test the class in T.9.4. (Optional) Investigate
+unit testing in C++. I expect to have a method with square size and the expected value for the square
+area. Method will instantiate the Square class, compute area and check the result.
+  I have a class Square, in a file (not mandatory in C++)
+  I want a class Test, in another file (not mandatory in C++)
+  I want to have something like: in class Test, method isSquareAreaValid(size, expectedArea)
+  Inside isSquareAreaValid, Square is instantiated, his area is computed. This value is compared
+with expectedArea
+  Test* test; test-> isSquareAreaValid(4, 16)
+  Test* test; test-> isSquareAreaValid (400, 160000)
+  Test* test; test-> isSquareAreaValid (0, 0)
+  Test* test; test-> isSquareAreaValid (NULL, NULL)
+  Test* test; test-> isSquareAreaValid (-4, NULL)
