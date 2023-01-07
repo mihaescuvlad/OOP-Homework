@@ -1,4 +1,4 @@
-# Object Oriented Programming Homework
+# :books: Object Oriented Programming Homework :books:
 
 This repository has the implementation for all of the mandatory exercises handed out at the Object Oriented Programming course at the Faculty of Automation, Computers and Electronics (with some slight overengineering)
 
